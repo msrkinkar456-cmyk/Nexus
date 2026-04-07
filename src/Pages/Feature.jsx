@@ -42,12 +42,12 @@ const imgData = [
 
 const Feature = () => {
   return (
-    <div className='max-w-[1200px] gap-y-[64px] mx-auto py-[5%] px-2 flex flex-col'>
+    <div className='max-w-300 gap-y-16 mx-auto py-[5%] px-2 flex flex-col'>
 
       {/* top text */}
       <div className=' text-center flex flex-col gap-y-2'>
         <h2 className='text-start text-4xl text-[48px] font-bold'>Featured Work</h2>
-        <p className=' text-start max-w-[350px] max-w-[500px] text-sm text-[18px] text-[#8A98A6] w-full'>
+        <p className=' text-start  max-w-125 text-sm text-[18px] text-[#8A98A6] w-full'>
           Explore our latest collection of premium digital products,
           immersive 3D experiences, and iconic brand identities.
         </p>

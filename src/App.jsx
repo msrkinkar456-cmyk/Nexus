@@ -9,7 +9,7 @@ import Footer from './Pages/Footer';
 const App = () => {
   return (
     <BrowserRouter>
-      <div className='flex flex-col bg-black min-h-screen text-white'>
+      <div className='flex w-full items-center flex-col bg-black min-h-screen text-white'>
         <Nav />
 
         {/* Use flex-grow to push footer down */}
