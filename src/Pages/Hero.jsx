@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className="w-full flex flex-col items-center justify-start px-4 md:px-8 lg:px-16 pt-0">
       <div className="mt-2 sm:mt-2 md:mt-3 max-w-md mx-auto flex items-center gap-1 sm:gap-2 md:gap-3 border border-white/10 bg-[#0E1B26]/50 rounded-2xl px-3 sm:px-4 md:px-5 py-1 sm:py-2 md:py-3 w-fit text-xs sm:text-sm md:text-base">
-      <img src="Star.png" alt="star" />
+      <img src="/Star.png" alt="star" />
       <span className="font-semibold whitespace-nowrap">
         Award-winning Design Agency
       </span>
@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="flex justify-center items-center border bg-[#7C3AED] rounded-2xl px-6 sm:px-8 py-2 sm:py-3 gap-2">
           <a href="">View Project</a>
             <div>
-                <img src="Arrow.png" alt="arrow" />
+                <img src="/Arrow.png" alt="arrow" />
             </div>
         </div>
         <div className="flex justify-center items-center border border-white/10 bg-black/40 rounded-2xl px-6 sm:px-8 py-2 sm:py-3 gap-2">

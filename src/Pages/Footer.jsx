@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='max-w-7xl mx-auto  w-full mt-4 flex flex-col  justify-between sm:flex-row  items-center gap-6 sm:gap-10 md:gap-16'>
       <div className='flex flex-col sm:flex-row items-center justify-center font-bold text-[#E6F0FF] gap-1 sm:gap-2 md:gap-3 '>
-        <img src="Background.png" alt="bottom" />
+        <img src="/Background.png" alt="bottom" />
         <div>
           NEXUS
         </div>

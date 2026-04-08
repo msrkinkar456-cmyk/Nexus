@@ -45,9 +45,9 @@ const Feature = () => {
     <div className=' py-[5%] px-2 flex flex-col sm:items-start items-center'>
 
       {/* top text */}
-      <div className='sm:text-start text-center flex  gap-y-2'>
+      <div className='sm:text-start text-center  grid grid-cols-1 gap-y-2'>
         <h2 className='text-4xl sm:text-[48px] font-bold '>Featured Work</h2>
-        <p className='max-w-[350px] sm:max-w-[500px] text-sm sm:text-[18px] text-[#8A98A6] w-full'>
+        <p className='max-w-125 justify-start sm:max-w-125 text-sm sm:text-[18px] text-[#8A98A6]'>
           Explore our latest collection of premium digital products,
           immersive 3D experiences, and iconic brand identities.
         </p>
