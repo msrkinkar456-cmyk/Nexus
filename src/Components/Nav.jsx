@@ -16,7 +16,7 @@ const Nav = () => {
                 <ul className="flex flex-col md:flex-row items-center gap-4 md:gap-6 lg:gap-8">
                    <NavLink to={'/feature'}><li className="cursor-pointer">Work</li></NavLink>
                    <NavLink to={'/capabilities'}> <li className="cursor-pointer">Studio</li> </NavLink>
-                   <NavLink to={'/hero'}> <li className="cursor-pointer">Services</li> </NavLink>
+                   <NavLink to={'/'}> <li className="cursor-pointer">Services</li> </NavLink>
                    <NavLink to={'/'}> <li className="cursor-pointer">Insights</li> </NavLink>
                 </ul>
             </nav>

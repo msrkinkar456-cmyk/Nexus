@@ -42,19 +42,19 @@ const imgData = [
 
 const Feature = () => {
   return (
-    <div className='max-w-300 gap-y-16 mx-auto py-[5%] px-2 flex flex-col'>
+    <div className=' py-[5%] px-2 flex flex-col sm:items-start items-center'>
 
       {/* top text */}
-      <div className=' text-center flex flex-col gap-y-2'>
-        <h2 className='text-start text-4xl text-[48px] font-bold'>Featured Work</h2>
-        <p className=' text-start  max-w-125 text-sm text-[18px] text-[#8A98A6] w-full'>
+      <div className='sm:text-start text-center flex  gap-y-2'>
+        <h2 className='text-4xl sm:text-[48px] font-bold '>Featured Work</h2>
+        <p className='max-w-[350px] sm:max-w-[500px] text-sm sm:text-[18px] text-[#8A98A6] w-full'>
           Explore our latest collection of premium digital products,
           immersive 3D experiences, and iconic brand identities.
         </p>
       </div>
 
       {/* gallery */}
-      <div className='justify-center gap-6 grid grid-cols-3  p-2'> 
+      <div className='grid sm:grid-cols-2 grid-cols-1 md:grid-cols-3 gap-5 my-[5%]'> 
         {
           imgData.map(item => (
             <Gallary
@@ -68,7 +68,7 @@ const Feature = () => {
       </div>
 
     </div>
-  )
-}
+  );
+};
 
 export default Feature

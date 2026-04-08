@@ -2,9 +2,9 @@ import React from "react";
 
 const Gallary = ({ text1, text2, imgLink }) => {
   return (
-    <div className="border rounded-md shadow-[0_2px_6px_rgba(0,0,0,0.25)] w-fit h-fit border-[#FFFFFF0A]">
+    <div className="border-px rounded-md shadow-[0_2px_6px_rgba(0,0,0,0.25)] w-full border-[#FFFFFF0A]">
       <div className="relative">
-        <img src={imgLink} className=" rounded-md" alt="" />
+        <img src={imgLink} className="max-w-[384px] rounded-md w-full" alt="" />
 
         <div className="absolute px-5 bottom-3 flex items-center justify-between w-full">
           <div>
