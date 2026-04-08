@@ -1,9 +1,10 @@
 import React from 'react'
-import Nav from "../components/Nav";
+
 import Footer from "./../Pages/Footer";
 import Feature from "./../Pages/Feature";
 import Hero from "./../Pages/Hero";
 import Capabilities from "./../Pages/Capabilities";
+import Nav from "./../Components/Nav";
 
 const Rootfile = () => {
   return (
