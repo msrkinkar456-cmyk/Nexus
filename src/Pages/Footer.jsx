@@ -2,12 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='max-w-7xl mx-auto  w-full mt-4 flex flex-col  justify-between sm:flex-row  items-center gap-6 sm:gap-10 md:gap-16'>
-      <div className='flex flex-col sm:flex-row items-center justify-center font-bold text-[#E6F0FF] gap-1 sm:gap-2 md:gap-3 '>
-        <img src="/Background.png" alt="bottom" />
-        <div>
+    <div className='max-w-360 mx-auto  w-full flex flex-col px-4 py-10 justify-between sm:flex-row  items-center sm:items-center sm:justify-between gap-6 sm:gap-10 md:gap-16'>
+      <div className='flex items-center gap-2 '>
+      <img src="/Background.png" className='h-[24px] w-[24px]' alt="bottom" />
           NEXUS
-        </div>
       </div>
       <div className='text-[#8A98A6] '>
           <p>© 2025 Nexus Creative Agency. All rights reserved</p>

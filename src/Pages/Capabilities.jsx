@@ -24,9 +24,9 @@ const capCard = [
 
 const Capabilities = () => {
   return (
-    <div className='justify-center items-center max-w-6xl mx-auto'>
+    <div className='max-w-300 mx-auto justify-center items-center '>
 
-      <div className='mt-8 font-bold text-center text-[48px] leading-18 text-[#E6F0FF]'>
+      <div className='mt-40 font-bold text-center text-[48px] leading-18 text-[#E6F0FF]'>
         <h1>Our Capabilities</h1>
       </div>
 

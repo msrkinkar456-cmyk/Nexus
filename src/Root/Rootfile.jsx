@@ -9,7 +9,7 @@ import Nav from "../Components/Nav";
 const Rootfile = () => {
   return (
     <>
-    <div className ='flex w-full items-center flex-col bg-black min-h-full text-white'>
+    <div className ='flex w-full items-center flex-col bg-black min-h-full text-white relative'>
     <Nav/>
     <Hero/>
     <Feature/>
