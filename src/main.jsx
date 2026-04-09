@@ -2,29 +2,29 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter } from 'react-router-dom'
-import Rootfile from './Root.jsx/Rootfile.jsx'
 import Feature from './Pages/Feature.jsx'
 import Capabilities from './Pages/Capabilities.jsx'
 import Notfound from './Pages/Notfound.jsx'
 import { RouterProvider } from 'react-router'
+import Rootfile from './Root/Rootfile.jsx'
 
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: Rootfile,
+    Component: Rootfile
   },
   {
     path: "/feature",
-    element: Feature,
+    Component: Feature,
   },
   {
     path: "/capabilities",
-    element: Capabilities,
+    Component: Capabilities,
   },
   {
     path: "*",
-    element: <Rootfile page={<Notfound/>}/>
+    Component: <Rootfile page={<Notfound/>}/>
   }
 
 ])
